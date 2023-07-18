@@ -22,6 +22,7 @@ module.exports = {
         semi: false,
       },
     ],
+    "camelcase": "off",
   },
   settings: {
     'import/parsers': {

@@ -1,5 +1,7 @@
 # ESLint config
 
+- Me basei no eslint disponibilizado pela Rocketseat, porém fiz algumas alterações para que se adeque ao meu estilo de código.
+
 ## Whats included?
 
 - Standard config base;
@@ -14,13 +16,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i @smooke09/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@rocketseat/eslint-config/next", 
+    "@smooke09/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -30,12 +32,12 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @smooke09/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@rocketseat/eslint-config/react"
+  "extends": "@smooke09/eslint-config/react"
 }
 ```
 
@@ -43,11 +45,11 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 ```
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @smooke09/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@rocketseat/eslint-config/node"
+  "extends": "@smooke09/eslint-config/node"
 }
 ```

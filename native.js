@@ -3,7 +3,6 @@ module.exports = {
     browser: true,
     es2021: true,
     jest: true,
-    'react-native/react-native': true,
   },
   extends: [
     'plugin:react/recommended',
@@ -20,7 +19,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', 'jsx-a11y', '@typescript-eslint'],
+  plugins: ['react', 'react-native', 'jsx-a11y', '@typescript-eslint'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -48,6 +47,8 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    camelcase: 'off',
+    'no-use-before-define': 'off',
   },
   settings: {
     react: {

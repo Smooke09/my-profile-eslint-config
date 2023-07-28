@@ -53,3 +53,16 @@ Inside `.eslintrc.json`
   "extends": "@smooke09/eslint-config/node"
 }
 ```
+
+### Native
+
+Install dependencies:
+```
+npm i -D eslint @smooke09/eslint-config
+```
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@smooke09/eslint-config/native"
+}
+```

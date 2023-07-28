@@ -1,6 +1,6 @@
 {
   "name": "@smooke09/eslint-config",
-  "version": "2.3.0",
+  "version": "2.4.1",
   "private": false,
   "description": "ESLint configuration used by Smooke09.",
   "main": "index.js",

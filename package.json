@@ -1,6 +1,6 @@
 {
   "name": "@smooke09/eslint-config",
-  "version": "2.5.0",
+  "version": "2.5.2",
   "private": false,
   "description": "ESLint configuration used by Smooke09.",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "@typescript-eslint/parser": "^5.25.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
@@ -28,8 +29,5 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "prettier": "^3.0.0"
-  },
-  "devDependencies": {
-    "eslint-plugin-react-native": "^4.0.0"
   }
 }
